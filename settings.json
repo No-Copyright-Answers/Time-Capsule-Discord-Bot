@@ -1,0 +1,24 @@
+{
+    "Bot_Token": "",
+    "Bot_Prefix": "!",
+    "Welcome_Message": "{}, Welcome to NCA!",
+    "Leave_Message": "{} has left the server!",
+    "announce_channel": "",
+    "command_testing_channel": "",
+    "Bot_OwnerID": [
+        "",
+        ""
+    ],
+    "Bad_Words": [
+        "\u6cb3\u7ae5",
+        "\u982d\u76ae\u602a",
+        "ray\u4ebaden",
+        "\u7092\u9eb5",
+        "green",
+        "\u7da0"
+    ],
+    "admin_ids": [
+        "",
+        ""
+    ]
+}
