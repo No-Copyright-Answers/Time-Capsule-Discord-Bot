@@ -6,6 +6,12 @@
 
 ## Package installation
 
-Use the command below to install the required packages
+Use the following command to install the required packages:
 
 `pip install -r requirement.txt`
+
+## Debian Linux dependencies installation
+
+The following command will get these dependencies:
+
+`$ apt install libffi-dev libnacl-dev python3-dev`
