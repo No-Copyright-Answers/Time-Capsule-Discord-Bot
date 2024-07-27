@@ -24,15 +24,15 @@ class auto(Cog_Extension):
         print(f'{member} has left the server.')
         await channel.send(settings["Leave_Message"].format(member))
 
-    # 言論審查系統
-    @commands.Cog.listener()
-    async def on_message(self, msg):
-        channel = self.bot.get_channel(settings["command_testing_channel"])
-        for i in settings["Bad_Words"]:
-            if i in msg.content.lower() and msg.author != self.bot.user and not str(msg.author.id) in settings["Bot_OwnerID"]:
-                await msg.delete()
-                await msg.channel.send(f"{msg.author.mention} 言论审查系统已将您的讯息删除。")
-                await channel.send(f'{msg.author} said {msg.content} in {msg.channel}.')
+    # Censorship module
+    # @commands.Cog.listener()
+    # async def on_message(self, msg):
+    #     channel = self.bot.get_channel(settings["command_testing_channel"])
+    #     for i in settings["Bad_Words"]:
+    #         if i in msg.content.lower() and msg.author != self.bot.user and not str(msg.author.id) in settings["Bot_OwnerID"]:
+    #             await msg.delete()
+    #             await msg.channel.send(f"{msg.author.mention} 言论审查系统已将您的讯息删除。")
+    #             await channel.send(f'{msg.author} said {msg.content} in {msg.channel}.')
 
 
 async def setup(bot):
