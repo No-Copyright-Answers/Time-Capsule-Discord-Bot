@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix=settings["Bot_Prefix"], intents=intents)
 
 @bot.event
 async def on_ready():
-    print('NCA Bot is online.\n')
+    print('The Bot is online.\n')
     print("Loading Extensions...")
     for filename in os.listdir('./cogs'):
         if filename.endswith('.py'):
