@@ -1,0 +1,7 @@
+
+# TTS Module
+*.pyc
+tts.mp3
+
+# Virtual environment
+/venv/

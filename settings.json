@@ -1,0 +1,23 @@
+{
+    // Bot settings
+    "Bot_Token": "",
+    "Bot_Prefix": "!",
+    "admin_ids": [
+        ""
+    ],
+    "Bot_OwnerID": [
+        ""
+    ],
+
+    // Messages
+    "Welcome_Message": "",
+    "Leave_Message": "",
+
+    // Channels ID
+    "announce_channel": "",
+    "command_testing_channel": "",
+
+    // Censorship module
+    "Bad_Words": [
+    ]
+}
